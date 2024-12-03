@@ -8,7 +8,6 @@ def main():
     partTwo(lines)
 
 def partOne(lines):
-    # Define the regex pattern
     pattern = r'mul\(\d+,\d+\)'
     matches = re.findall(pattern, lines)
 
